@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Mohd Mehtab | Portfolio</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600&display=swap"
+    rel="stylesheet"
+  />
+</head>
+<body>
+  <header class="navbar">
+    <div class="logo">Mehtab</div>
+    <nav>
+      <ul>
+        <li><a href="#hero" class="nav-link active">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#education" class="nav-link">Education</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+        <li>
+          <a href="assets/Resume.pdf" download class="btn-resume" title="Download Resume">Resume</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+    <main>
+      <section id="hero" class="section hero-section">
+        <div class="hero-content">
+          <h1>
+            Hi, I'm <span class="highlight shimmer">Mohd Mehtab</span>
+          </h1>
+          <p class="typing-text">
+            <span id="typed-role-text"></span><span id="typed-role-emoji"></span>
+          </p>
+          <p class="hero-subtitle">
+            Got a killer data puzzle or a bright idea that needs cracking? Let's team up and make magic! 🧩✨
+          </p>
+          <a href="#contact" class="btn-primary">Let's Connect</a>
+        </div>
+        <div class="hero-photo-container">
+          <img
+            src="assets/profile.jpg"
+            alt="Profile Photo"
+            class="hero-photo"
+          />
+        </div>
+      </section>
+
+      <section id="about" class="section section-alt">
+      <h2 class="section-title">✨ About Me</h2>
+      <p class="about-text">
+        Hello! 👋 I’m <strong>Mehtab</strong>, a caffeine-fueled data explorer who believes data is more than just numbers, it's an untapped world of stories waiting to be told 📖. With an MSc in Big Data Analytics and an Engineering background, I've danced with datasets big and small, cleaned some truly messy spreadsheets (we’ve all been there 😅), built dashboards that actually make people say “wow,” and coded models that learned faster than my coffee cooled down. I’m passionate about simplifying complexity and solving real-world puzzles — from business bottlenecks to predicting stock movements. Whether it’s Python, SQL, or visualizing with Power BI, I’m always eager to learn, collaborate, and turn insights into action. Let’s team up and make data magic happen! ✨🚀
+      </p>
+    </section>
+
+      <section id="education" class="section section-light">
+      <h2 class="section-title">🎓 Education</h2>
+      <div class="edu-wrapper">
+        <div class="edu-cards">
+          <div class="edu-card" tabindex="0" title="Hover for skills">
+            <h3>MSc Big Data Analytics</h3>
+            <p>Trent University, Peterborough, ON</p>
+            <p><em>Sep 2023 – Dec 2024</em></p>
+            <p>GPA: 90.5/100</p>
+          </div>
+          <div class="edu-card" tabindex="0" title="Hover for skills">
+            <h3>Bachelor of Engineering in Information Technology</h3>
+            <p>Sinhgad Academy of Engineering, Pune, MH</p>
+            <p><em>2019 – 2022</em></p>
+            <p>GPA: 9.04/10</p>
+          </div>
+        </div>
+        <div class="edu-summary">
+          <p>
+            My academic journey has been equal parts hustle and hilarity 🎓💡. During my Master's, I explored the world of machine learning, big data pipelines, and predictive modeling — and loved every minute of it (yes, even the painful debugging sessions 😅). In my Bachelor's, I fell in love with code, crammed for exams, hacked on side projects, and built a solid technical foundation in IT. Beyond grades and classes, what I truly gained was a mindset for learning, curiosity, and teamwork. Education wasn’t just about assignments, it was where I found my passion for turning information into innovation! 📚⚙️✨
+          </p>
+        </div>
+      </div>
+    </section>
+
+      <section id="projects" class="section section-alt">
+        <h2 class="section-title">🚀 Projects</h2>
+        <div class="projects-grid">
+    <div
+            class="project-card"
+            tabindex="0"
+            onclick="openRepo('https://github.com/siddiquimehtab/dental-analysis')"
+          >
+            <div class="card-inner">
+              <div class="card-front">
+                <img src="assets/project4.jpg" alt="Dental Clinic Dashboards" />
+                <h3 class="project-name">Dental Analysis</h3>
+                <p class="tools-used">
+                  <span class="highlight-tool">Python</span>
+                  <span class="highlight-tool">SQL</span>
+                  <span class="highlight-tool">Selenium</span>
+                  <span class="highlight-tool">PowerBI</span>
+                  <span class="highlight-tool">Digital Ocean</span>
+                </p>
+              </div>
+              <div class="card-back">
+                <p>
+                  Built an end-to-end analysis pipeline for a dental clinic's patient feedback system — from Selenium-based data extraction to insightful visualizations in Power BI. Cleaned and standardized data, performed EDA to uncover key trends in demographics and complaints, and ran sentiment analysis using VADER to classify patient comments. Delivered actionable insights on provider performance and satisfaction through engaging dashboards, heatmaps, and word clouds.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div
+            class="project-card"
+            tabindex="0"
+            onclick="openRepo('https://github.com/siddiquimehtab/customer-segmentation')"
+          >
+            <div class="card-inner">
+              <div class="card-front">
+                <img src="assets/project3.jpg" alt="Customer Segmentation" />
+                <h3 class="project-name">Customer Segmentation</h3>
+                <p class="tools-used">
+                  <span class="highlight-tool">Python</span>
+                  <span class="highlight-tool">SQL</span>
+                  <span class="highlight-tool">Matplotlib</span>
+                  <span class="highlight-tool">Seaborn</span>
+                  <span class="highlight-tool">Scikit-learn</span>
+                </p>
+              </div>
+              <div class="card-back">
+                <p>
+                  Segmented e-commerce customers using RFM (Recency, Frequency, Monetary) analysis to improve targeted marketing. Preprocessed the data to handle nulls and duplicates, engineered RFM features, and normalized values for clustering. Determined optimal clusters using the Elbow Method, followed by K-Means to assign customer groups. Stored the final segments in a SQL database for easy retrieval and future campaign analysis.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="project-card"
+            tabindex="0"
+            onclick="openRepo('https://github.com/siddiquimehtab/sales_forecasting_using_Prophet')"
+          >
+            <div class="card-inner">
+              <div class="card-front">
+                <img src="assets/project1.jpg" alt="Sales Data Mining" />
+                <h3 class="project-name">Sales Forecasting</h3>
+                <p class="tools-used">
+                  <span class="highlight-tool">Python</span>
+                  <span class="highlight-tool">Matplotlib</span>
+                  <span class="highlight-tool">Seaborn</span>
+                  <span class="highlight-tool">Prophet</span>
+                </p>
+              </div>
+              <div class="card-back">
+                <p>
+                  Performed time-series forecasting on aggregated sales data using Facebook’s Prophet model. Conducted detailed exploratory analysis to uncover sales trends by category, time, and customer segments. After handling missing values and transforming date features, trained the model to predict future monthly sales with confidence intervals. Visualized key patterns including seasonality and trends to support strategic decision-making.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="project-card"
+            tabindex="0"
+            onclick="openRepo('https://github.com/siddiquimehtab/bank-analytics-project')"
+          >
+            <div class="card-inner">
+              <div class="card-front">
+                <img src="assets/project2.jpg" alt="Stock Price Prediction" />
+                <h3 class="project-name">Bank Analytics</h3>
+                <p class="tools-used">
+                  <span class="highlight-tool">Python</span>
+                  <span class="highlight-tool">SQL</span>
+                  <span class="highlight-tool">Matplotlib</span>
+                  <span class="highlight-tool">Seaborn</span>
+                </p>
+              </div>
+              <div class="card-back">
+                <p>
+                  Designed a full-scale financial data analytics platform simulating bank operations. Created a normalized MySQL schema connecting customers, accounts, and transactions. Performed in-depth SQL analysis to uncover top spenders, risky behavior, and fraud patterns. Used Python (Pandas, Seaborn, Plotly) to clean data and build interactive dashboards revealing key insights — like fraud hotspots, transaction types with high fraud rates, and customer segmentation by risk.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="skills" class="section section-light">
+        <h2 class="section-title">💡 Skills</h2>
+        <div class="skills-grid">
+          <div class="skill">
+            <div class="skill-icon">
+              <img src="assets/python.png" alt="Python Icon" />
+              <p>Python</p>
+            </div>
+            <div class="bar">
+              <div class="fill" style="width: 90%"></div>
+            </div>
+          </div>
+          <div class="skill">
+            <div class="skill-icon">
+              <img src="assets/c.png" alt="C++ Icon" />
+              <p>C++</p>
+            </div>
+            <div class="bar">
+              <div class="fill" style="width: 90%"></div>
+            </div>
+          </div>
+          <div class="skill">
+            <div class="skill-icon">
+              <img src="assets/sql.png" alt="SQL Icon" />
+              <p>SQL</p>
+            </div>
+            <div class="bar">
+              <div class="fill" style="width: 90%"></div>
+            </div>
+          </div>
+          <div class="skill">
+            <div class="skill-icon">
+              <img src="assets/powerbi.png" alt="Power BI Icon" />
+              <p>PowerBI</p>
+            </div>
+            <div class="bar">
+              <div class="fill" style="width: 80%"></div>
+            </div>
+          </div>
+          <div class="skill">
+            <div class="skill-icon">
+              <img src="assets/React.png" alt="React Icon" />
+              <p>React</p>
+            </div>
+            <div class="bar">
+              <div class="fill" style="width: 75%"></div>
+            </div>
+          </div>
+          <div class="skill">
+            <div class="skill-icon">
+              <img src="assets/JavaScript.png" alt="JavaScript Icon" />
+              <p>JavaScript</p>
+            </div>
+            <div class="bar">
+              <div class="fill" style="width: 75%"></div>
+            </div>
+          </div>
+          <div class="skill">
+            <div class="skill-icon">
+              <img src="assets/Linux.png" alt="Linux Icon" />
+              <p>Linux</p>
+            </div>
+            <div class="bar">
+              <div class="fill" style="width: 70%"></div>
+            </div>
+          </div>
+          <div class="skill">
+            <div class="skill-icon">
+              <img src="assets/ai_ml.png" alt="React Icon" />
+              <p>AI/ML</p>
+            </div>
+            <div class="bar">
+              <div class="fill" style="width: 60%"></div>
+            </div>
+          </div>
+          <div class="skill">
+            <div class="skill-icon">
+              <img src="assets/AWS.png" alt="AWS Icon" />
+              <p>AWS</p>
+            </div>
+            <div class="bar">
+              <div class="fill" style="width: 45%"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section section-alt">
+        <h2 class="section-title">📫 Contact Me</h2>
+        <div class="contact-links">
+          <a
+            href="mailto:mehtabsid10@gmail.com"
+            title="Email Me"
+            target="_blank"
+            rel="noopener noreferrer"
+            ><img src="assets/email.png" alt="Email Icon" />
+          </a>
+          <a
+            href="https://www.linkedin.com/in/mmsiddiqui/"
+            title="LinkedIn"
+            target="_blank"
+            rel="noopener noreferrer"
+            ><img src="assets/linkedin.png" alt="LinkedIn Icon" />
+          </a>
+          <a
+            href="https://github.com/siddiquimehtab"
+            title="GitHub"
+            target="_blank"
+            rel="noopener noreferrer"
+            ><img src="assets/github.png" alt="GitHub Icon" />
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <script src="js/script.js"></script>
+    </div> 
+</body>
+</html>
