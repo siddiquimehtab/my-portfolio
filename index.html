@@ -18,6 +18,7 @@
         <li><a href="#hero" class="nav-link active">Home</a></li>
         <li><a href="#about" class="nav-link">About</a></li>
         <li><a href="#education" class="nav-link">Education</a></li>
+        <li><a href="#dashboards" class="nav-link">Dashboards</a></li>
         <li><a href="#projects" class="nav-link">Projects</a></li>
         <li><a href="#skills" class="nav-link">Skills</a></li>
         <li><a href="#contact" class="nav-link">Contact</a></li>
@@ -83,17 +84,19 @@
       </div>
     </section>
 
-      <section id="projects" class="section section-alt">
-        <h2 class="section-title">🚀 Projects</h2>
+      <section id="dashboards" class="section section-light">
+        <h2 class="section-title">📊 Dashboards</h2>
+
         <div class="projects-grid">
-    <div
+
+          <div
             class="project-card"
             tabindex="0"
             onclick="openRepo('https://github.com/siddiquimehtab/dental-analysis')"
           >
             <div class="card-inner">
               <div class="card-front">
-                <img src="assets/project4.jpg" alt="Dental Clinic Dashboards" />
+                <img src="assets/dashboard1.jpg" alt="Dental Clinic Dashboards" />
                 <h3 class="project-name">Dental Analysis</h3>
                 <p class="tools-used">
                   <span class="highlight-tool">Python</span>
@@ -110,6 +113,92 @@
               </div>
             </div>
           </div>
+
+                <!-- Banking Performance Dashboard -->
+                <div
+                  class="project-card"
+                  tabindex="0"
+                  onclick="openRepo('https://github.com/siddiquimehtab/banking-dashboard')"
+                >
+                  <div class="card-inner">
+                    <div class="card-front">
+                      <img src="assets/dashboard2.jpg" alt="Banking Performance Dashboard" />
+                      <h3 class="project-name">Banking Performance Dashboard</h3>
+                      <p class="tools-used">
+                        <span class="highlight-tool">Power BI</span>
+                        <span class="highlight-tool">Data Modeling</span>
+                        <span class="highlight-tool">DAX</span>
+                        <span class="highlight-tool">KPI Formatting</span>
+                      </p>
+                    </div>
+                    <div class="card-back">
+                      <p>
+                        Multi-page Power BI dashboard analyzing retail banking performance, customer demographics,
+                        transaction behavior, and branch-level financial metrics. Includes executive KPIs,
+                        customer segmentation, transaction trends, investment analysis, and branch profitability insights.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <!-- Canadian Tech Job Market Analysis Dashboard -->
+      <div
+        class="project-card"
+        tabindex="0"
+        onclick="openRepo('https://github.com/siddiquimehtab/canadian-tech-job-dashboard')"
+      >
+        <div class="card-inner">
+          <div class="card-front">
+            <img src="assets/dashboard3.jpg" alt="Canadian Tech Job Market Dashboard" />
+            <h3 class="project-name">Canadian Tech Job Market Dashboard</h3>
+            <p class="tools-used">
+              <span class="highlight-tool">Power BI</span>
+              <span class="highlight-tool">Python</span>
+              <span class="highlight-tool">Pandas</span>
+              <span class="highlight-tool">Excel</span>
+              <span class="highlight-tool">DAX</span>
+            </p>
+          </div>
+          <div class="card-back">
+            <p>
+              Power BI dashboard analyzing Canadian tech job postings. Includes location-based job distribution, experience level analysis, skill demand trends, and role-level insights. Built using Python for data cleaning and feature engineering, with interactive visuals and slicers for decision-ready insights.
+            </p>
+          </div>
+        </div>
+      </div>
+          
+      <!-- Climate Change Analysis -->
+<div
+  class="project-card"
+  tabindex="0"
+  onclick="openRepo('https://github.com/siddiquimehtab/climate-change-analysis')"
+>
+  <div class="card-inner">
+    <div class="card-front">
+      <img src="assets/dashboard4.jpg" alt="Climate Change Analysis" />
+      <h3 class="project-name">Climate Change Analysis</h3>
+      <p class="tools-used">
+        <span class="highlight-tool">Python</span>
+        <span class="highlight-tool">Pandas</span>
+        <span class="highlight-tool">Scikit-learn</span>
+        <span class="highlight-tool">Matplotlib</span>
+        <span class="highlight-tool">Seaborn</span>
+      </p>
+    </div>
+    <div class="card-back">
+      <p>
+        Explored climate trends using Global Weather Repository data. Performed data cleaning, feature selection, and EDA on temperature, humidity, UV index, and pressure. Built predictive models (Linear Regression, Decision Tree, Random Forest) to forecast temperature trends, supporting climate insights and mitigation strategies.
+      </p>
+    </div>
+  </div>
+</div>
+
+        </div>
+      </section>
+
+      <section id="projects" class="section section-alt">
+        <h2 class="section-title">🚀 Projects</h2>
+        <div class="projects-grid">
+    
           <div
             class="project-card"
             tabindex="0"
@@ -117,7 +206,7 @@
           >
             <div class="card-inner">
               <div class="card-front">
-                <img src="assets/project3.jpg" alt="Customer Segmentation" />
+                <img src="assets/project1.jpg" alt="Customer Segmentation" />
                 <h3 class="project-name">Customer Segmentation</h3>
                 <p class="tools-used">
                   <span class="highlight-tool">Python</span>
@@ -142,7 +231,7 @@
           >
             <div class="card-inner">
               <div class="card-front">
-                <img src="assets/project1.jpg" alt="Sales Data Mining" />
+                <img src="assets/project2.jpg" alt="Sales Data Mining" />
                 <h3 class="project-name">Sales Forecasting</h3>
                 <p class="tools-used">
                   <span class="highlight-tool">Python</span>
@@ -159,6 +248,32 @@
             </div>
           </div>
 
+          <!-- Credit Risk Default Prediction (LightGBM) -->
+          <div
+            class="project-card"
+            tabindex="0"
+            onclick="openRepo('https://github.com/siddiquimehtab/credit-risk-default-prediction')"
+          >
+            <div class="card-inner">
+              <div class="card-front">
+                <img src="assets/project3.jpg" alt="Credit Risk Default Prediction" />
+                <h3 class="project-name">Credit Risk Default Prediction</h3>
+                <p class="tools-used">
+                  <span class="highlight-tool">Python</span>
+                  <span class="highlight-tool">LightGBM</span>
+                  <span class="highlight-tool">Scikit-learn</span>
+                  <span class="highlight-tool">Pandas</span>
+                  <span class="highlight-tool">Power BI</span>
+                </p>
+              </div>
+              <div class="card-back">
+                <p>
+                  Built an end-to-end credit risk default prediction model using historical loan-level data (~2.2M loans). Engineered interpretable risk-based features, handled class imbalance, and trained a LightGBM model. Evaluated using ROC-AUC and confusion matrices to detect high-risk defaulters, supporting credit approvals, portfolio monitoring, and risk-based pricing.
+                </p>
+              </div>
+            </div>
+          </div>
+
           <div
             class="project-card"
             tabindex="0"
@@ -166,7 +281,7 @@
           >
             <div class="card-inner">
               <div class="card-front">
-                <img src="assets/project2.jpg" alt="Stock Price Prediction" />
+                <img src="assets/project4.jpg" alt="Stock Price Prediction" />
                 <h3 class="project-name">Bank Analytics</h3>
                 <p class="tools-used">
                   <span class="highlight-tool">Python</span>
