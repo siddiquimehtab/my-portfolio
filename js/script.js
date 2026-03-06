@@ -104,11 +104,11 @@ document.addEventListener("DOMContentLoaded", () => {
     const message = document.createElement("div");
     message.id = "messy-message";
     message.textContent =
-      "⚠️ Wow, This is chaos — just like raw, unstructured data. But don’t worry — I’m the one who turns mess into meaning. Click the magic button below to see how I bring clarity — just like I do with messy data!";
+      "⚠️ Whoa! Looks like data chaos just hit the screen — messy, unpredictable, and full of surprises. Don’t worry! With a single click, I can transform this jumble into clean, meaningful insights — just like magic for messy data!";
 
     const magicBtn = document.createElement("button");
     magicBtn.id = "magic-button";
-    magicBtn.textContent = "✨ magic button!";
+    magicBtn.textContent = "🧹 CLICK TO CLEAN";
 
     container.appendChild(message);
     container.appendChild(magicBtn);
